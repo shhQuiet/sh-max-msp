@@ -10,10 +10,10 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 258.0, 106.0, 343.27447509765625, 73.316085815429688 ],
+		"openrect" : [ 258.0, 106.0, 346.0, 79.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"devicewidth" : 343.27447509765625,
+		"devicewidth" : 346.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-26",
@@ -920,7 +920,7 @@
 
 			}
  ],
-		"originid" : "pat-188",
+		"originid" : "pat-239",
 		"parameters" : 		{
 			"obj-1" : [ "live.dial", "note #", 0 ],
 			"obj-10" : [ "live.dial[3]", "detune", 0 ],
