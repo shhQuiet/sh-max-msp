@@ -36,7 +36,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 236.0, 746.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 95.0, 6.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 94.0, 17.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1.0 ],
@@ -67,7 +67,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 511.0, 530.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.0, 6.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 253.0, 17.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[5]",
@@ -95,7 +95,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 316.0, 525.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 6.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 143.0, 17.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[4]",
@@ -158,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 537.0, 460.0, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 6.0, 35.0, 20.0 ],
+					"presentation_rect" : [ 296.0, 17.0, 35.0, 20.0 ],
 					"text" : "LFO",
 					"textjustification" : 1
 				}
@@ -172,7 +172,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.0, 436.0, 42.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 6.0, 34.0, 20.0 ],
+					"presentation_rect" : [ 186.0, 17.0, 34.0, 20.0 ],
 					"text" : "LFO",
 					"textjustification" : 1
 				}
@@ -188,7 +188,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 412.0, 434.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 30.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 191.0, 41.0, 24.0, 24.0 ],
 					"svg" : ""
 				}
 
@@ -215,7 +215,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 511.0, 458.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 30.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 301.0, 41.0, 24.0, 24.0 ],
 					"svg" : ""
 				}
 
@@ -443,7 +443,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 257.0, 67.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 6.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 51.0, 17.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[3]",
@@ -571,7 +571,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 190.0, 67.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 6.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 6.0, 17.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
@@ -587,6 +587,43 @@
 					}
 ,
 					"varname" : "live.dial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.101960784313725, 0.129411764705882, 0.313725490196078, 1.0 ],
+					"bordercolor" : [ 0.376470588235294, 0.533333333333333, 0.647058823529412, 1.0 ],
+					"id" : "obj-24",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 339.0, 274.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.0, 342.0, 12.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 0.0 ],
+					"border" : 2,
+					"bordercolor" : [ 0.101960784313725, 0.129411764705882, 0.313725490196078, 1.0 ],
+					"id" : "obj-27",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 258.5, 229.5, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.0, 342.0, 72.0 ],
+					"proportion" : 0.5
 				}
 
 			}
@@ -883,7 +920,7 @@
 
 			}
  ],
-		"originid" : "pat-81",
+		"originid" : "pat-188",
 		"parameters" : 		{
 			"obj-1" : [ "live.dial", "note #", 0 ],
 			"obj-10" : [ "live.dial[3]", "detune", 0 ],
@@ -906,14 +943,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sh.balanced-matrix.js",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Max MSP/sh",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 9/Packages/sh-max-msp/javascript",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/sh-max-msp/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sh.lfo.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Max MSP/sh",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
