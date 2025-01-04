@@ -3,7 +3,11 @@
     "author": "Steve Horne",
     "version": "0.1.0",
     "description": "A collection of bits and bobs I find useful in creating Max/MSP patches.",
-    "tags": [ "audio", "DSP", "javascript" ],
+    "tags": [
+        "audio",
+        "DSP",
+        "javascript"
+    ],
     "max_version_min": "9.0.0",
     "homepatcher": "sh-home.maxpat"
 }
