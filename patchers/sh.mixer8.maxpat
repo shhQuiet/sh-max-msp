@@ -10,7 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 155.0, 181.0, 1000.0, 780.0 ],
+		"rect" : [ 258.0, 181.0, 1000.0, 780.0 ],
+		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -470,7 +471,7 @@
 
 			}
  ],
-		"originid" : "pat-51",
+		"originid" : "pat-71",
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
