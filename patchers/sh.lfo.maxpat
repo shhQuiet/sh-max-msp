@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 258.0, 198.0, 1000.0, 780.0 ],
+		"rect" : [ 111.0, 176.0, 812.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -97,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "depth",
+					"comment" : "range",
 					"id" : "obj-10",
 					"index" : 4,
 					"maxclass" : "inlet",
@@ -292,7 +292,7 @@
 
 			}
  ],
-		"originid" : "pat-485"
+		"originid" : "pat-6"
 	}
 
 }
