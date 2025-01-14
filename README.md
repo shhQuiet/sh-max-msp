@@ -27,3 +27,6 @@ This patch provides a random number that is distributed using a Box-Mueller tran
 
 ## sh.svf
 This patch provides a UI wrapper for the state-variable filter object, svf~
+
+## sh.clicker
+This patch uses a click and can create fart sounds.
