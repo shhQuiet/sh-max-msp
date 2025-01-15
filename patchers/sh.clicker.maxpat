@@ -16,9 +16,38 @@
 		"devicewidth" : 380.2415771484375,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 457.0, 531.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 139.0, 12.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.dial[6]",
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : -1.0,
+							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "curve",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "curve"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patcher" : 					{
@@ -32,9 +61,22 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 1000.0, 780.0 ],
+						"rect" : [ 258.0, 106.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "curve",
+									"id" : "obj-2",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 111.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-82",
 									"maxclass" : "message",
@@ -43,35 +85,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 171.0, 29.5, 22.0 ],
 									"text" : "0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-80",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 158.0, 100.0, 41.0, 48.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 139.0, 12.0, 41.0, 48.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "live.dial[6]",
-											"parameter_mmax" : 1.0,
-											"parameter_mmin" : -1.0,
-											"parameter_modmode" : 3,
-											"parameter_osc_name" : "<default>",
-											"parameter_shortname" : "curve",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"varname" : "curve"
 								}
 
 							}
@@ -166,6 +179,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-77", 2 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-28", 0 ]
 								}
@@ -194,20 +214,13 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-77", 2 ],
-									"source" : [ "obj-80", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
 									"source" : [ "obj-82", 0 ]
 								}
 
 							}
  ],
-						"originid" : "pat-182"
+						"originid" : "pat-192"
 					}
 ,
 					"patching_rect" : [ 312.0, 649.0, 53.0, 22.0 ],
@@ -760,6 +773,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
@@ -822,15 +842,15 @@
 
 			}
  ],
-		"originid" : "pat-180",
+		"originid" : "pat-190",
 		"parameters" : 		{
 			"obj-12" : [ "live.dial[2]", "time", 0 ],
-			"obj-15::obj-80" : [ "live.dial[6]", "curve", 0 ],
 			"obj-3" : [ "live.dial", "start", 0 ],
 			"obj-4" : [ "live.dial[1]", "end", 0 ],
 			"obj-56" : [ "live.dial[3]", "resonance", 0 ],
 			"obj-74" : [ "live.dial[4]", "cutoff lo", 0 ],
 			"obj-75" : [ "live.dial[5]", "cutoff hi", 0 ],
+			"obj-80" : [ "live.dial[6]", "curve", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
