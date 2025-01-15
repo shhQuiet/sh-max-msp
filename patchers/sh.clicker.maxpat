@@ -207,7 +207,7 @@
 
 							}
  ],
-						"originid" : "pat-163"
+						"originid" : "pat-182"
 					}
 ,
 					"patching_rect" : [ 312.0, 649.0, 53.0, 22.0 ],
@@ -260,11 +260,11 @@
 				"box" : 				{
 					"id" : "obj-89",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 525.0, 162.0, 148.0, 22.0 ],
-					"text" : "route start end time"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 525.0, 162.0, 353.0, 22.0 ],
+					"text" : "route start end time freqlo freqhi resonance"
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 611.0, 221.0, 41.0, 48.0 ],
+					"patching_rect" : [ 636.333333333333371, 221.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 12.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -408,7 +408,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 568.0, 221.0, 41.0, 48.0 ],
+					"patching_rect" : [ 580.666666666666629, 221.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 53.0, 12.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -458,18 +458,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-90",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 707.0, 774.0, 162.0, 22.0 ],
-					"text" : "route freqlo freqhi resonance"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-84",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -487,7 +475,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 892.0, 114.0, 22.0 ],
+					"patching_rect" : [ 636.0, 892.0, 131.0, 22.0 ],
 					"text" : "pak setrange i i"
 				}
 
@@ -500,7 +488,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 755.0, 818.0, 41.0, 48.0 ],
+					"patching_rect" : [ 747.666666666666629, 818.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 76.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -528,7 +516,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 707.0, 818.0, 41.0, 48.0 ],
+					"patching_rect" : [ 692.0, 818.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 128.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -575,7 +563,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 803.0, 818.0, 51.0, 48.0 ],
+					"patching_rect" : [ 803.333333333333258, 818.0, 51.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 76.0, 51.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -730,7 +718,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 2 ],
-					"midpoints" : [ 812.5, 1233.92156982421875, 548.5, 1233.92156982421875 ],
+					"midpoints" : [ 812.833333333333258, 1233.92156982421875, 548.5, 1233.92156982421875 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -807,29 +795,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"source" : [ "obj-89", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
-					"source" : [ "obj-90", 2 ]
+					"source" : [ "obj-89", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
-					"source" : [ "obj-90", 0 ]
+					"source" : [ "obj-89", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-90", 1 ]
+					"source" : [ "obj-89", 4 ]
 				}
 
 			}
@@ -841,7 +822,7 @@
 
 			}
  ],
-		"originid" : "pat-161",
+		"originid" : "pat-180",
 		"parameters" : 		{
 			"obj-12" : [ "live.dial[2]", "time", 0 ],
 			"obj-15::obj-80" : [ "live.dial[6]", "curve", 0 ],
