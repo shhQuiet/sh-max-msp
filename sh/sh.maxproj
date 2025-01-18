@@ -2,7 +2,7 @@
 	"name" : "sh",
 	"version" : 1,
 	"creationdate" : 3818853591,
-	"modificationdate" : 3819498124,
+	"modificationdate" : 3820004212,
 	"viewrect" : [ 224.0, 241.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -91,6 +91,19 @@
 			}
 ,
 			"sh.mixer8.maxpat" : 			{
+				"kind" : "patcher",
+				"singleton" : 				{
+					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
+					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
+				}
+
+			}
+,
+			"sh.clicker.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sh.constrain-range.maxpat" : 			{
 				"kind" : "patcher"
 			}
 
@@ -120,6 +133,10 @@
 					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/javascript"
 				}
 
+			}
+,
+			"sh.signal-gater.gendsp" : 			{
+				"kind" : "gendsp"
 			}
 
 		}
