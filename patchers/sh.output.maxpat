@@ -79,11 +79,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 37.0, 26.0, 30.0, 30.0 ]
 				}
 
@@ -215,9 +215,7 @@
 
 			}
  ],
-		"originid" : "pat-359",
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-239"
 	}
 
 }
