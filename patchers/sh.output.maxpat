@@ -16,6 +16,23 @@
 		"devicewidth" : 155.4609375,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 140.0, 31.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"gain" : [ 133 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u715011023"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,7 +76,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 500.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 47.0, 45.0, 45.0 ]
+					"presentation_rect" : [ 3.0, 47.0, 45.0, 45.0 ],
+					"varname" : "dac"
 				}
 
 			}
@@ -83,7 +101,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 37.0, 26.0, 30.0, 30.0 ]
 				}
 
@@ -113,7 +131,8 @@
 					"patching_rect" : [ 37.0, 111.0, 129.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 147.0, 43.0 ],
-					"saved_multichannel" : 1
+					"saved_multichannel" : 1,
+					"varname" : "gain"
 				}
 
 			}
@@ -215,7 +234,7 @@
 
 			}
  ],
-		"originid" : "pat-239"
+		"originid" : "pat-686"
 	}
 
 }
