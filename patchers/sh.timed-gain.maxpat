@@ -25,7 +25,7 @@
 					"restore" : 					{
 						"inStart" : [ -1 ],
 						"inTime" : [ 4999.999999999991815 ],
-						"level" : [ -23.039370078740191 ],
+						"level" : [ 0.0 ],
 						"outStart" : [ -1 ],
 						"outTime" : [ 4999.999999999999091 ]
 					}
@@ -60,7 +60,7 @@
 					"presentation_rect" : [ 101.0, 9.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[18]",
+							"parameter_longname" : "live.dial[15]",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -250,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 375.0, 65.0, 58.0, 22.0 ],
+					"patching_rect" : [ 439.0, 75.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -262,8 +262,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 241.0, 472.0, 108.0, 22.0 ],
-					"text" : "scale~ 0. 1. -75. 0."
+					"patching_rect" : [ 241.0, 472.0, 97.0, 22.0 ],
+					"text" : "scale~ 0. 1. 0. 0."
 				}
 
 			}
@@ -327,19 +327,18 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 414.0, 192.0, 41.0, 48.0 ],
+					"patching_rect" : [ 303.399999999999977, 416.0, 41.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 144.0, 9.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[1]",
-							"parameter_mmax" : 0.0,
-							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.dial[14]",
+							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "level",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -373,7 +372,7 @@
 					"presentation_rect" : [ 58.0, 9.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[11]",
+							"parameter_longname" : "live.dial[20]",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 3,
 							"parameter_osc_name" : "<default>",
@@ -400,7 +399,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -408,7 +407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -600,7 +599,7 @@
 
 			}
  ],
-		"originid" : "pat-378"
+		"originid" : "pat-231"
 	}
 
 }
