@@ -2,8 +2,8 @@
 	"name" : "sh",
 	"version" : 1,
 	"creationdate" : 3818853591,
-	"modificationdate" : 3820004212,
-	"viewrect" : [ 224.0, 241.0, 300.0, 500.0 ],
+	"modificationdate" : 3821205886,
+	"viewrect" : [ 215.0, 175.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,92 +11,39 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"sh.svf.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.random-bmt.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.ramp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.presetStorage.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.manual-steps.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.lfo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.drone.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.adsr-ui.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.mixer8.maxpat" : 			{
-				"kind" : "patcher",
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/patchers",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/patchers"
-				}
-
+				"kind" : "patcher"
 			}
 ,
 			"sh.clicker.maxpat" : 			{
@@ -105,6 +52,26 @@
 ,
 			"sh.constrain-range.maxpat" : 			{
 				"kind" : "patcher"
+			}
+,
+			"sh.harmonic-oscillator.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Packages/sh-max-msp",
+					"projectrelativepath" : ".."
+				}
+
+			}
+,
+			"sh.ks-polyvoice.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Packages/sh-max-msp",
+					"projectrelativepath" : ".."
+				}
+
 			}
 
 		}
@@ -116,23 +83,11 @@
 			}
 ,
 			"sh.stepped-random.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/code",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/code"
-				}
-
+				"kind" : "gendsp"
 			}
 ,
 			"sh.random-skewed.js" : 			{
-				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp/javascript",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp/javascript"
-				}
-
+				"kind" : "javascript"
 			}
 ,
 			"sh.signal-gater.gendsp" : 			{
@@ -143,26 +98,14 @@
 ,
 		"data" : 		{
 			"package-info.json" : 			{
-				"kind" : "json",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp"
-				}
-
+				"kind" : "json"
 			}
 
 		}
 ,
 		"other" : 		{
 			"README.md" : 			{
-				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Library/CloudStorage/Dropbox/sh-max-msp",
-					"projectrelativepath" : "../../../../../Library/CloudStorage/Dropbox/sh-max-msp"
-				}
-
+				"kind" : "file"
 			}
 
 		}
