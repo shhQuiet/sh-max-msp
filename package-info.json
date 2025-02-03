@@ -8,6 +8,5 @@
         "DSP",
         "javascript"
     ],
-    "max_version_min": "9.0.0",
     "homepatcher": "sh-home.maxpat"
 }
